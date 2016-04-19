@@ -1,5 +1,5 @@
 # Validator
-[![Zewo 0.4][zewo-badge]](http://zewo.io)
+[![Zewo 0.5][zewo-badge]](http://zewo.io)
 [![Swift 3][swift-badge]](https://swift.org)
 [![Platform Linux][platforms-badge]](https://swift.org)
 [![License MIT][mit-badge]](https://tldrlegal.com/license/mit-license)
@@ -32,7 +32,7 @@ License
 
 **Validator** is released under the MIT license. See LICENSE for details.
 
-[zewo-badge]: https://img.shields.io/badge/Zewo-0.4-FF7565.svg?style=flat
+[zewo-badge]: https://img.shields.io/badge/Zewo-0.5-FF7565.svg?style=flat
 [swift-badge]: https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat
 [mit-badge]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat
 [platforms-badge]: https://img.shields.io/badge/Platform-Mac%20%26%20Linux-lightgray.svg
