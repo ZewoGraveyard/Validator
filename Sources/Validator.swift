@@ -15,4 +15,5 @@ extension Validator {
 
 public enum ValidationError: ErrorProtocol {
     case validationFailed
+    case incompatibleType
 }
