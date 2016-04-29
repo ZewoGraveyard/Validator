@@ -1,4 +1,4 @@
-// Mapper.swift
+// Validator.swift
 //
 // The MIT License (MIT)
 //
