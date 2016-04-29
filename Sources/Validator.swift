@@ -1,10 +1,9 @@
 public protocol Validator {
-    associatedtype Validating
-    func validate(_ value: Validating) throws
+    func validate(_ value: Any) throws
 }
 
 extension Validator {
-    public func isValid(_ value: Validating) -> Bool {
+    public func isValid(_ value: Any) -> Bool {
         do {
             try validate(value)
             return true
