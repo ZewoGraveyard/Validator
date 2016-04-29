@@ -10,7 +10,10 @@
 
 ```swift
 struct NumberValidator: Validator {
-    func validate(value: Int) throws {
+    func validate(value: Any) throws {
+    	guard let value = value as? Int else {
+    		throw ValidationError.incompatibleType
+    	}
         if value < 0 {
             throw Error.negativeValue
         }
